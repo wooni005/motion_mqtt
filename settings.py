@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
-MQTT_ServerIP     = "192.168.5.248"
-MQTT_ServerPort   = 1883
-LOG_FILENAME      = "/home/pi/log/motion_mqtt.log"
+MQTT_ServerIP = "192.168.5.248"
+MQTT_ServerPort = 1883
+LOG_FILENAME = "/home/pi/log/motion_mqtt.log"
 
-#Bediend door gebruiker:
+# User interface by Home Assistant
 MQTT_TOPIC_HOMEASSISTANT_BEDIENING = 'huis/HomeLogic/+/bediening'
 
 motionDetectionURL = {
@@ -19,5 +19,5 @@ motionDetectionURL = {
     }
 }
 
-MQTT_TOPIC_CHECK     = "huis/MotionMQTT/RPiHome/check"
-MQTT_TOPIC_REPORT    = "huis/MotionMQTT/RPiHome/report"
+MQTT_TOPIC_CHECK = "huis/MotionMQTT/RPiHome/check"
+MQTT_TOPIC_REPORT = "huis/MotionMQTT/RPiHome/report"
